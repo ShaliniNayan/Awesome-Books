@@ -42,7 +42,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://shalininayan.github.io/)
+- [Live Demo Link](https://shalininayan.github.io/Awesome-Books/)
 
 <!-- GETTING STARTED -->
 
@@ -64,7 +64,7 @@ Clone this repository to your desired folder:
 
 Navigate to the directory where you want to clone this project with your terminal.
 Clone this repository using the following commands:
-`git clone  https://shalininayan.github.io/`
+`git clone  https://shalininayan.github.io/Awesome-Books/`
 
 ### Install
 
