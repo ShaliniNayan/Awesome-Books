@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+li > p,
+li > button {
+  margin-bottom: 10px;
+}
+
+input.text {
+  width: 30%;
+  display: block;
+  margin-bottom: 10px;
+}
