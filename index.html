@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>Awesome Books</div>
+        <div>
+          <a href="" class="list active">List</a>
+          <a href="" class="add">Add new</a>
+          <a href="" class="contact">Contact</a>
+        </div>
+      </nav>
+      <p>March 19th 2021,9:25:32 am</p>
+    </header>
+    <section class="show-book">
+      <h1>All awesome books</h1>
+      <ul></ul>
+    </section>
 
-    <title>Awesome-books</title>
+    <section class="add-book">
+      <form id="add-book-form">
+        <h2>Add a new book</h2>
+        <input type="text" id="title" placeholder="title" class="text" />
+        <br />
+        <br />
+        <input type="text" id="author" class="text" placeholder="author" />
+        <br />
+        <br />
+        <button type="submit">Add</button>
+      </form>
+    </section>
 
-</head>
-<body>
-    <h1 id="book-name">Awesome books</h1>
-    <!-- <div id="book-list"></div> -->
-    
-    <form id="add-book-form">
-      <ul id="book-list"></ul>
-      <input type="text" id="title" name="title" placeholder="Title" required>
-      <br>
-      <br>
-      <input type="text" id="author" name="author" placeholder="Author" required>
-      <button type="submit" id="add">Add</button>
-    </form>
-</body>
+    <section id="contact-section">
+      <h3>Contact information</h3>
+      <p>
+        Do have any questions or you just want to say "Hello" You can reach out
+        to us!
+      </p>
+
+      <ul>
+        <li>Our e-mail:mail@mail.com</li>
+        <li>Our phone number:0043586534422</li>
+        <li>Our address:Streetname 22,84503 City,Country</li>
+      </ul>
+    </section>
+
+    <footer>Copyright... @ some right reserved. <span>...</span></footer>
+  </body>
 </html>

@@ -6,24 +6,154 @@
 
 ul {
   list-style-type: none;
+  border-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+hr {
+  text-align: center;
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 body {
-  max-width: 60%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
-li {
-  margin-bottom: 30px;
+form {
+  max-width: 60%;
+  margin: 40px auto;
 }
 
-li > p,
-li > button {
-  margin-bottom: 10px;
+button {
+  float: right;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+li {
+  padding: 10px;
+}
+
+div.check {
+  display: flex;
+  justify-content: space-between;
 }
 
 input.text {
-  width: 30%;
+  width: 100%;
   display: block;
   margin-bottom: 10px;
+  padding: 5px;
+}
+
+li:nth-child(2n) {
+  background-color: white;
+  border: 2px solid black;
+  border-bottom: 0;
+}
+
+li:nth-child(2n + 1) {
+  background-color: grey;
+  border: 2px solid black;
+  border-bottom: 0;
+}
+
+li:last-child {
+  border-bottom: 2px solid black;
+}
+
+.remove-book-button {
+  border: 3px solid black;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header p {
+  text-align: right;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: black;
+  border-right: 2px solid black;
+  padding: 7px;
+}
+
+.add-book {
+  display: none;
+}
+
+footer {
+  border: 2px solid black;
+  width: 82%;
+  padding: 7px;
+  margin-top: 100px;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+
+footer span {
+  margin-left: 10px;
+}
+
+#contact-section {
+  margin-top: 50px;
+  display: none;
+}
+
+#contact-section h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+#contact-section ul {
+  text-align: center;
+}
+
+#contact-section p {
+  margin-bottom: 20px;
+}
+
+#contact-section ul li {
+  border: none;
+  background-color: white;
+  list-style-type: initial;
+  margin-left: 45px;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 7px;
+}
+
+.active {
+  color: blue;
 }
